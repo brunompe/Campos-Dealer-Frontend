@@ -1,4 +1,4 @@
-# GuitarGo
+# Campos Dealer
 
 Esse projeto foi desenvolvido como teste técnico para Desenvolvedor na Campos Dealer.
 
