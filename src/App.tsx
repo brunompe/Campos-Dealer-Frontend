@@ -1,9 +1,9 @@
-import { Button } from "@/components/ui/button";
+import Home from "./pages/Home";
 
 export default function App() {
   return (
-    <div>
-      <Button>Click me</Button>
+    <div className="bg-[#151518] text-[#A1A1AA] h-full w-full">
+      <Home />
     </div>
   );
 }
