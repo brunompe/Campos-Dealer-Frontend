@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar";
-import Home from "./pages/Home";
+import { Outlet } from "react-router-dom";
 
 export default function App() {
   return (
@@ -8,7 +8,7 @@ export default function App() {
       <Sidebar />
       <div className="w-full">
         <Header />
-        <Home />
+        <Outlet />
       </div>
     </div>
   );
