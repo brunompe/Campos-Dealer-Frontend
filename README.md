@@ -1,30 +1,47 @@
-# React + TypeScript + Vite
+# GuitarGo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esse projeto foi desenvolvido como teste técnico para Desenvolvedor na Campos Dealer.
 
-Currently, two official plugins are available:
+## Instalação
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Pré-requisitos
 
-## Expanding the ESLint configuration
+- NodeJs v.16 ou superior
+- npm
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+A forma mais simples e rápida de instalar é através do [nvm](https://github.com/nvm-sh/nvm).
 
-- Configure the top-level `parserOptions` property like this:
+Após todos os pré-requisitos instalados, siga o passo-a-passo abaixo.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+#### Faça o clone do repositório
+
+```bash
+  git clone https://github.com/brunompe/Campos-Dealer-Frontend.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+#### Acesse a pasta do projeto
+
+```bash
+  cd Campos-Dealer-Frontend
+```
+
+#### Instale as dependências do projeto
+
+```bash
+  npm install
+```
+
+#### Inicie a aplicação
+
+```bash
+  npm run dev
+```
+
+## Autor
+
+- [@brunompe](https://www.github.com/brunompe)
+
+## Contatos
+
+- [LinkedIn](https://www.linkedin.com/in/brunompe/)
+- [Email](brunompe@gmail.com)
