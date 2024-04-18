@@ -3,11 +3,10 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./pages/Home.tsx";
-import Customers from "./pages/Customers.tsx";
-import Sales from "./pages/Sales.tsx";
-import Products from "./pages/Products.tsx";
 import App from "./App.tsx";
+import Customers from "./pages/Customers.tsx";
+import Products from "./pages/Products.tsx";
+import Sales from "./pages/Sales.tsx";
 
 const router = createBrowserRouter([
   {
