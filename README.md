@@ -2,6 +2,10 @@
 
 Esse projeto foi desenvolvido como teste técnico para Desenvolvedor na Campos Dealer.
 
+### Backend
+
+O Backend desse projeto está [aqui!](https://github.com/brunompe/Campos-Dealer-Backend)
+
 ## Instalação
 
 Pré-requisitos
